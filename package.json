@@ -1,0 +1,28 @@
+{
+  "name": "node-best-practices-sample",
+  "version": "1.0.0",
+  "description": "A project that showcase best practice for organising a nodejs project",
+  "main": "src/run.js",
+  "scripts": {
+    "start": "node src/run.js",
+    "debug": "DEBUG=app.* nodemon src/run.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-hbs": "^2.1.2",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.18.0"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1",
+    "eslint": "^6.3.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-standart": "^0.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^9.2.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
