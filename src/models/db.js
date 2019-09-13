@@ -42,7 +42,7 @@ const Comment = db.define('comment', {
 })
 
 Article.belongsTo(User, { as: 'author' })
-User.hasMany(Article)
+User.hasMany(Article, { as: 'author' })
 
 Comment.belongsTo(Article)
 Article.hasMany(Comment)
